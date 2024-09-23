@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     # Другие маршруты
     path('task2/', include('task2.urls')),
+    path('', include('task3.urls'))
 ]
